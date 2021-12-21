@@ -32,6 +32,12 @@
 // numbers.shift()
 // numbers.shift()
 // console.log(numbers);
-var numbers = [1,2,4,5,64,6,3,6,3,3]
-numbers.splice(1,3)
-console.log(numbers);
+
+// var arr = [43,4,35,2,453,465,54,43];
+
+// console.log(arr[0]);
+
+
+var arr = [43, 4, 35, 2, 453, 465, 54, 43];
+
+console.log();
