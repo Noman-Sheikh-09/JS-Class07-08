@@ -38,10 +38,17 @@
 // console.log(arr[0]);
 
 // MAP Loop
-var arr = [43, 4, 35, 2, 453, 465, 54, 43];
-console.log(arr);
-var ary = arr.map(function(x){
-    return x + 10
+// var arr = [43, 4, 35, 2, 453, 465, 54, 43];
+// console.log(arr);
+// var ary = arr.map(function(x){
+//     return x + 10
+    
+// })
+// console.log(ary);
+
+var num = [-2,3,-5,32,-6,76,-8,65]
+var negNumbers = num.filter(function(x){
+    return x < 0 ;
     
 })
-console.log(ary);
+console.log("Negatice Numbers is", negNumbers);
